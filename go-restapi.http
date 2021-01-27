@@ -1,0 +1,15 @@
+GET http://localhost:8080/ping HTTP/1.1
+
+###
+
+GET http://localhost:8080/newsfeed HTTP/1.1
+
+###
+
+POST http://localhost:8080/newsfeed HTTP/1.1
+content-type: application/json
+
+{
+  "title": "My stuff",
+  "post": "things about stuff"
+}
